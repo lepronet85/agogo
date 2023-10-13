@@ -1,0 +1,50 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #40c78b;
+  color: white;
+  height: 100vh;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.menu button {
+  color: inherit;
+  flex: 1;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  border-left: 1px solid #000;
+}
+
+.main {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.chrono-container {
+  text-align: center;
+}
+
+.chrono-container h1 {
+  font-size: 42px;
+  margin: 0;
+}
+
+.chrono-container p {
+  margin: 0;
+  font-size: 12px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Agogo</title>
+  </head>
+  <body>
+    <div class="menu">
+      <button id="btn1">20 SECS</button>
+      <button id="btn2">CAPPUCINO 5</button>
+      <button id="btn3">THE 15</button>
+      <button id="btn4">PETIT DEJEUNER 20</button>
+      <button id="btn5">DEJEUNER 30</button>
+    </div>
+    <div class="main">
+      <div>
+        <input
+          type="number"
+          id="agogo-input"
+          placeholder="Enter time in minutes"
+        />
+      </div>
+      <div class="chrono-container">
+        <h1>00:00:00</h1>
+        <p>Be back at <span id="back-time"></span></p>
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
